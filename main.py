@@ -89,7 +89,7 @@ def main():
         if is_valid_input(user_move, board):
             user_move = int(user_move) - 1
         else:
-            print("[!] This invalid input or place already taken!")
+            print("[!] invalid input or this place already taken!")
             pause_screen()
             continue
 
